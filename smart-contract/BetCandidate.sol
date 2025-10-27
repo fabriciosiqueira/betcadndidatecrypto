@@ -13,7 +13,7 @@ struct Dispute {
     string candidate1;
     string candidate2;
     string image1;
-    string iamge2;
+    string image2;
     uint total1;
     uint total2;
     uint winner;
@@ -36,7 +36,7 @@ contract BetCandidate {
             candidate1: "Donald Trump",
             candidate2: "Kamala Harris",
             image1: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/250px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-            iamge2: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/250px-Kamala_Harris_Vice_Presidential_Portrait.jpg",
+            image2: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kamala_Harris_Vice_Presidential_Portrait.jpg/250px-Kamala_Harris_Vice_Presidential_Portrait.jpg",
             total1: 0,
             total2: 0,
             winner: 0
